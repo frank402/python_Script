@@ -5,7 +5,7 @@ host = 'your_firewall_hostname'
 
 current_time = datetime.datetime.today().strftime('%Y_%b_%d') # This is to add to the naming of the file
 
-api_token = 'xxxxxxxxxxx'
+api_token = 'xxxxxxxxxxx'   # your API Token
 
 api_url = 'https://xx.xx.xx.xx/api/v2/monitor/system/config/backup?scope=global&access_token=' + api_token
 
