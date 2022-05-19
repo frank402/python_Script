@@ -1,13 +1,13 @@
 import requests
 import datetime
 
-host = 'TP-FH4F-FW-01'
+host = 'your_firewall_hostname'
 
 current_time = datetime.datetime.today().strftime('%Y_%b_%d') # This is to add to the naming of the file
 
-api_token = 'cqQkstGHxq4kb1wNhpbz1b11wh0byp'
+api_token = 'xxxxxxxxxxx'
 
-api_url = 'https://10.22.65.1/api/v2/monitor/system/config/backup?scope=global&access_token=' + api_token
+api_url = 'https://xx.xx.xx.xx/api/v2/monitor/system/config/backup?scope=global&access_token=' + api_token
 
 requests.packages.urllib3.disable_warnings() # Close https CA warning
 
